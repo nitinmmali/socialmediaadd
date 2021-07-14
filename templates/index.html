@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Social Media Add</title>
+    <link rel="stylesheet" type="text/css" href="./static/mycss.css", media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="./static/mycss2.css", media="screen,projection"/>
+</head>
+<body>
+<div id="body">
+            <div class='background'>
+                <div class="text1">
+                    <h1>WELCOME TO ML SOCIAL MEDIA ADD APP</h1>
+                    <p id=header>made with by Nitin</p>
+                </div>
+            </div>
+    <div class=paragraph1>
+        <p>
+             I created a machine learning model using the regression equation .
+        </p>
+        
+    </div>
+
+               
+
+    <div class=paragraph2>
+        <p>
+        Its a fun project ,I just want to make the end product using the machine learning model,which I created in python.</a>
+        </p>
+    </div>
+      <div class=form>
+        
+        <form action="/predict" method="post">
+        </Select><br>
+            
+        <label>Enter the Age :</label><br>
+        <input type="number" placeholder="Age" id='Age' name='Age'><br>
+            
+            
+            
+            <label>Enter the salary :</label><br>
+            <input type="number" placeholder="EstimatedSalary" id='EstimatedSalary' name='EstimatedSalary'><br>
+            
+        </Select><br>
+        <label class='select_label'>Enter the Gender? </label>
+         <Select id='Gender' name='Gender'>
+        <option value='1'>Male</option>
+         <option selected value="0" >Female</option>
+        </Select><br>
+            </Select><br>
+                <button id=submitbtn type="submit" value="Submit">Submit</button><br>
+           </form>
+
+      </div>
+                    <div id=result1>
+                        <p>Knowing is not enough; we must apply. Willing is not enough; we must do</p>
+                </div>
+
+</div>
+</body>
+            <div id=result>
+
+           <h1> {{pred}}</h1>
+            </div>
+    
+    
+</html>
